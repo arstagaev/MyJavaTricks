@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3551185-882c-49c3-8b11-c543287c88d7" name="Default Changelist" comment="" />
+    <list default="true" id="a3551185-882c-49c3-8b11-c543287c88d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LetItSnow/LetItSnow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findelement/FindElement1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/first/SnowBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/first/YinAndYang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typesofsort/Sort1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyJavaTricks/CircleAndCubic$DrawPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaTricks/CircleAndCubic$DrawPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyJavaTricks/CircleAndCubic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaTricks/CircleAndCubic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyJavaTricks/PlanetAnim$DrawPanel2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaTricks/PlanetAnim$DrawPanel2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyJavaTricks/PlanetAnim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaTricks/PlanetAnim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleAndCubic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleAndCubic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlanetAnim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlanetAnim.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +28,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Xiaomi\IdeaProjects\MyJavaTricks\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1ij0M4PwaKKKnFeeain6y39t8DT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,13 +47,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.PlanetAnim">
+  <component name="RunManager" selected="Application.LetItSnow">
     <configuration name="CircleAndCubic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CircleAndCubic" />
       <module name="MyJavaTricks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LetItSnow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LetItSnow.LetItSnow" />
+      <module name="MyJavaTricks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LetItSnow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -40,10 +81,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="typesofsort.Sort1" />
+      <module name="MyJavaTricks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="typesofsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YinAndYang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first.YinAndYang" />
+      <module name="MyJavaTricks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PlanetAnim" />
+        <item itemvalue="Application.LetItSnow" />
+        <item itemvalue="Application.YinAndYang" />
         <item itemvalue="Application.CircleAndCubic" />
+        <item itemvalue="Application.PlanetAnim" />
+        <item itemvalue="Application.Sort1" />
       </list>
     </recent_temporary>
   </component>
@@ -69,7 +133,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602405642266</updated>
-      <workItem from="1602405644846" duration="1737000" />
+      <workItem from="1602405644846" duration="3921000" />
+      <workItem from="1602428135355" duration="4856000" />
+      <workItem from="1602700890128" duration="11131000" />
     </task>
     <servers />
   </component>
@@ -77,37 +143,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1602407385191">
+    <state width="1237" height="266" key="GridCell.Tab.0.bottom" timestamp="1602772627814">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1602407385191" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1602407385190">
+    <state width="1237" height="266" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1602772627814" />
+    <state width="1237" height="266" key="GridCell.Tab.0.center" timestamp="1602772627814">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1602407385190" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1602407385190">
+    <state width="1237" height="266" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1602772627814" />
+    <state width="1237" height="266" key="GridCell.Tab.0.left" timestamp="1602772627814">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1602407385190" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1602407385190">
+    <state width="1237" height="266" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1602772627814" />
+    <state width="1237" height="266" key="GridCell.Tab.0.right" timestamp="1602772627814">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1602407385190" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1602406199120">
+    <state width="1237" height="266" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1602772627814" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1602409566731">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1602406199120" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1602406199120">
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1602409566731" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1602409566731">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1602406199120" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1602406199119">
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1602409566731" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1602409566731">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1602406199119" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1602406199120">
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1602409566731" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1602409566731">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1602406199120" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1602409566731" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1602429851570">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1602429851570" />
   </component>
 </project>

@@ -1,11 +1,13 @@
 
+
+
 import javax.swing.*;
 import java.awt.*;
 
 public class CircleAndCubic {
 
     JFrame frame;
-    CircleAndCubic.DrawPanel drawPanel;
+    private CircleAndCubic.DrawPanel drawPanel;
 
     private int oneX = 7;
     private int oneY = 7;
@@ -33,7 +35,7 @@ public class CircleAndCubic {
         frame = new JFrame("Test");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        drawPanel = new CircleAndCubic.DrawPanel();
+        //drawPanel = new CircleAndCubic().DrawPanel();
 
         frame.getContentPane().add(BorderLayout.CENTER, drawPanel);
 

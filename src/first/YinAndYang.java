@@ -1,23 +1,24 @@
-
-
-
-
-
-import first.YinAndYang;
+package first;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 
-public class PlanetAnim {
+public class YinAndYang {
 
-        private JFrame frame;
-    private DrawPanel2 drawPanel = new DrawPanel2();
+    private JFrame frame;
+    private DrawPanel3 drawPanel = new DrawPanel3();
 
     private int oneX = 7;
     private int oneY = 7;
 
-    private int ovalX = 180;
+    private int ovalX = 300;
     private int ovalY = 120;
+
+    private int oval2X = 1;
+    private int oval2Y = 120;
 
     private int sizeoval = 60;
     private int pillarOval = 1;
@@ -25,11 +26,15 @@ public class PlanetAnim {
 
     boolean goToRight = true;
 
-    //int a = 0;
+    int a = 0;
+    private int numOfFlakes = 10;
+    private SnowBall[] Drops = new SnowBall[numOfFlakes];
+    HashMap<Integer, Integer> hashMap = new HashMap<>();
+    Random rand = new Random();
 
     public static void main(String... args)
     {
-        new PlanetAnim().go();
+        new YinAndYang().go();
     }
 
     private void go()
@@ -45,19 +50,31 @@ public class PlanetAnim {
         frame.setSize(360, 360);
         frame.setLocationByPlatform(true);
         frame.setVisible(true);
+        initArray();
         moveIt();
         //heartanim();
+    }
+    public void initArray(){
+
+
+
+
+        for (int o = 0; o<numOfFlakes; o++){
+            //Also init all the drops
+            hashMap.put(rand.nextInt(300), 10);
+
+            //Drops[o].setSnowX(rand.nextInt(500));
+        }
+        System.out.println(hashMap.toString());
     }
 
 
 
 
-    class DrawPanel2 extends JPanel
+    class DrawPanel3 extends JPanel
     {
         private static final long serialVersionUID = 1L;
-
-        public void paintComponent(Graphics g)
-        {
+        public void paintComponent(Graphics g) {
            /*
            Parameters:
               x - the x coordinate of the rectangle to be filled.
@@ -76,21 +93,30 @@ public class PlanetAnim {
             g.setColor(Color.BLACK);
             //XY upper , XY downer
 
-            g.fillRect(oneX, oneY, 60, 60);
-            if (goToRight){
-                g.setColor(Color.YELLOW);
-                g.fillOval(120,90,1+80,1+80);
-            }
 
             if (sizeoval>60){
                 sizeoval =60;
             }
+            for (Map.Entry<Integer, Integer> e : hashMap.entrySet()) {
+                Integer key = e.getKey();
+                Integer value = e.getValue();
+                g.setColor(Color.YELLOW);
+                g.fillOval(key,value,40,40);
+                e.setValue(value+rand.nextInt(2));
+
+                if (value>400){ e.setValue(1); }
+            }
+
 
             g.setColor(Color.RED);
             g.fillOval(ovalX-sizeoval/2,ovalY-sizeoval/2,sizeoval,sizeoval);
-            if (!goToRight) {
-                g.setColor(Color.YELLOW);
-                g.fillOval(120,90,1+80,1+80);
+            if (a ==0){
+                g.setColor(Color.BLACK);
+                g.fillOval(ovalX-300-sizeoval/2,ovalY-sizeoval/2,sizeoval,sizeoval);
+                a++;
+            }else{
+                g.setColor(Color.BLACK);
+                g.fillOval(ovalX+sizeoval/2,ovalY+sizeoval/2,sizeoval,sizeoval);
             }
 
         }
@@ -98,7 +124,18 @@ public class PlanetAnim {
 
     private void moveIt() {
 
+
         for (int turn = 0; turn<360;turn++ ){
+//            for (Map.Entry<Integer, Integer> e : hashMap.entrySet()) {
+//                Integer key = e.getKey();
+//                Integer value = e.getValue();
+//
+//                e.setValue(value+1);
+//                if (value>400){
+//                    e.setValue(1);
+//                }
+//            }
+//            hashMap.replace(25,hashMap.get(25)+1);
 
             if (goToRight){
                 rightGo();
@@ -121,8 +158,12 @@ public class PlanetAnim {
                 { Thread.sleep(10); }
                 catch (Exception e) { e.printStackTrace(); }
             }
+
+
             frame.repaint();
         }
+
+
     }
 
     private void rightGo(){
